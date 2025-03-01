@@ -5,5 +5,5 @@
   "name": "@miguelripoll23/explicit-boolean-comparison-plugin",
   "version": "1.0.0",
   "license": "MIT",
-  "exports": "./my-plugin.ts"
+  "exports": "./index.ts"
 }
