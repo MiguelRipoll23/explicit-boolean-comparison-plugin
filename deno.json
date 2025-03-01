@@ -3,7 +3,7 @@
     "plugins": ["./index.ts"]
   },
   "name": "@miguelripoll23/explicit-boolean-comparison-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "exports": "./index.ts"
 }
