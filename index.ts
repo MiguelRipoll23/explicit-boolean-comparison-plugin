@@ -1,4 +1,4 @@
-export default {
+const plugin: Deno.lint.Plugin = {
   name: "explicit-boolean-comparison-plugin",
   rules: {
     "no-implicit-boolean-negation": {
@@ -21,4 +21,6 @@ export default {
       },
     },
   },
-} satisfies Deno.lint.Plugin;
+};
+
+export default plugin;
