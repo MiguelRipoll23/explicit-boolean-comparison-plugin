@@ -10,6 +10,14 @@ conditional statements.
 > turns code into unreadable chaos. But until I can secure the necessary
 > military funding, here’s a lint plugin as a peace offering.
 
+## Example
+
+```js
+if (!flag) { // ⚠️ Avoid using '!' shorthand for boolean negation to improve readability. Use an explicit comparison instead (e.g., flag === false).
+  console.log("Flag is false");
+}
+```
+
 ## Usage
 
 Add the following block to your `deno.json` file:
