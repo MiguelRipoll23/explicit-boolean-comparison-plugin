@@ -23,4 +23,5 @@ const plugin: Deno.lint.Plugin = {
   },
 };
 
+/** Exports Deno plugin metadata and rules */
 export default plugin;
