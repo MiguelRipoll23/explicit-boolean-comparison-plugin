@@ -1,3 +1,4 @@
+/** Exports Deno plugin metadata and rules */
 const plugin: Deno.lint.Plugin = {
   name: "explicit-boolean-comparison-plugin",
   rules: {
@@ -23,5 +24,4 @@ const plugin: Deno.lint.Plugin = {
   },
 };
 
-/** Exports Deno plugin metadata and rules */
 export default plugin;
