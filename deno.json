@@ -1,0 +1,9 @@
+{
+  "lint": {
+    "plugins": ["./index.ts"]
+  },
+  "name": "@miguelripoll23/explicit-boolean-comparison-rule",
+  "version": "1.0.0",
+  "license": "MIT",
+  "exports": "./my-plugin.ts"
+}
